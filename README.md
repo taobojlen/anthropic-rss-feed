@@ -1,8 +1,10 @@
-# Anthropic News RSS Feed Generator
+# Anthropic RSS Feed Generator
 
-This script generates an RSS feed for Anthropic's news and announcements at https://www.anthropic.com/news using Playwright to scrape the client-side rendered content.
+This script generates RSS feeds for Anthropic's website using Playwright to scrape the client-side rendered content.
 
-Subscribe to the feed: `https://raw.githubusercontent.com/taobojlen/anthropic-rss-feed/main/anthropic_news_rss.xml`
+**Feeds:**
+- **News & Announcements:** `https://raw.githubusercontent.com/taobojlen/anthropic-rss-feed/main/anthropic_news_rss.xml`
+- **Engineering Blog:** `https://raw.githubusercontent.com/taobojlen/anthropic-rss-feed/main/anthropic_engineering_rss.xml`
 
 ## Features
 
@@ -12,7 +14,7 @@ Subscribe to the feed: `https://raw.githubusercontent.com/taobojlen/anthropic-rs
 - **Reverse chronological order**: Articles sorted newest first
 - **Deduplication**: Featured and list items are deduplicated by URL
 - **Error handling**: Robust error handling for missing elements
-- **Automated updates**: GitHub Action runs hourly to keep the feed current
+- **Automated updates**: GitHub Action runs every 6 hours to keep the feeds current
 
 ## Setup
 
@@ -54,19 +56,9 @@ python anthropic_rss.py
    - Click "Add secret"
 
 4. The GitHub Action will automatically:
-   - Run every hour (and on push to main)
-   - Generate a fresh RSS feed
+   - Run every 6 hours (and on push to main)
+   - Generate both RSS feeds
    - Commit and push updates to the repository
-   - Make the RSS feed available at the raw GitHub URL
-
-### Accessing the RSS Feed
-
-Once set up, your RSS feed will be available at:
-```
-https://raw.githubusercontent.com/<USERNAME>/<REPO>/main/anthropic_news_rss.xml
-```
-
-You can subscribe to this URL in any RSS reader.
 
 ## Manual Triggering
 

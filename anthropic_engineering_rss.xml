@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Anthropic Engineering Blog</title>
+    <link>https://raw.githubusercontent.com/taobojlen/anthropic-rss-feed/main/anthropic_engineering_rss.xml</link>
+    <description>Latest engineering posts from Anthropic</description>
+    <atom:link href="https://raw.githubusercontent.com/taobojlen/anthropic-rss-feed/main/anthropic_engineering_rss.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 14 Feb 2026 09:48:39 +0000</lastBuildDate>
+    <item>
+      <title>Introducing Contextual Retrieval</title>
+      <link>https://www.anthropic.com/engineering/contextual-retrieval</link>
+      <description>Introducing Contextual Retrieval</description>
+      <guid isPermaLink="true">https://www.anthropic.com/engineering/contextual-retrieval</guid>
+      <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building effective agents</title>
+      <link>https://www.anthropic.com/engineering/building-effective-agents</link>
+      <description>Building effective agents</description>
+      <guid isPermaLink="true">https://www.anthropic.com/engineering/building-effective-agents</guid>
+      <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Raising the bar on SWE-bench Verified with Claude 3.5 Sonnet</title>
+      <link>https://www.anthropic.com/engineering/swe-bench-sonnet</link>
+      <description>Raising the bar on SWE-bench Verified with Claude 3.5 Sonnet</description>
+      <guid isPermaLink="true">https://www.anthropic.com/engineering/swe-bench-sonnet</guid>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The "think" tool: Enabling Claude to stop and think in complex tool use situations</title>
+      <link>https://www.anthropic.com/engineering/claude-think-tool</link>
+      <description>The "think" tool: Enabling Claude to stop and think in complex tool use situations</description>
+      <guid isPermaLink="true">https://www.anthropic.com/engineering/claude-think-tool</guid>
+      <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Code: Best practices for agentic coding</title>
+      <link>https://www.anthropic.com/engineering/claude-code-best-practices</link>
+      <description>Claude Code: Best practices for agentic coding</description>
+      <guid isPermaLink="true">https://www.anthropic.com/engineering/claude-code-best-practices</guid>
+      <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How we built our multi-agent research system</title>
+      <link>https://www.anthropic.com/engineering/multi-agent-research-system</link>
+      <description>How we built our multi-agent research system</description>
+      <guid isPermaLink="true">https://www.anthropic.com/engineering/multi-agent-research-system</guid>
+      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Desktop Extensions: One-click MCP server installation for Claude Desktop</title>
+      <link>https://www.anthropic.com/engineering/desktop-extensions</link>
+      <description>Desktop Extensions: One-click MCP server installation for Claude Desktop</description>
+      <guid isPermaLink="true">https://www.anthropic.com/engineering/desktop-extensions</guid>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Writing effective tools for agents — with agents</title>
+      <link>https://www.anthropic.com/engineering/writing-tools-for-agents</link>
+      <description>Writing effective tools for agents — with agents</description>
+      <guid isPermaLink="true">https://www.anthropic.com/engineering/writing-tools-for-agents</guid>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A postmortem of three recent issues</title>
+      <link>https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues</link>
+      <description>A postmortem of three recent issues</description>
+      <guid isPermaLink="true">https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues</guid>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Effective context engineering for AI agents</title>
+      <link>https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents</link>
+      <description>Effective context engineering for AI agents</description>
+      <guid isPermaLink="true">https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents</guid>
+      <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Beyond permission prompts: making Claude Code more secure and autonomous</title>
+      <link>https://www.anthropic.com/engineering/claude-code-sandboxing</link>
+      <description>Beyond permission prompts: making Claude Code more secure and autonomous</description>
+      <guid isPermaLink="true">https://www.anthropic.com/engineering/claude-code-sandboxing</guid>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Code execution with MCP: Building more efficient agents</title>
+      <link>https://www.anthropic.com/engineering/code-execution-with-mcp</link>
+      <description>Code execution with MCP: Building more efficient agents</description>
+      <guid isPermaLink="true">https://www.anthropic.com/engineering/code-execution-with-mcp</guid>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing advanced tool use on the Claude Developer Platform</title>
+      <link>https://www.anthropic.com/engineering/advanced-tool-use</link>
+      <description>Introducing advanced tool use on the Claude Developer Platform</description>
+      <guid isPermaLink="true">https://www.anthropic.com/engineering/advanced-tool-use</guid>
+      <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Effective harnesses for long-running agents</title>
+      <link>https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents</link>
+      <description>Effective harnesses for long-running agents</description>
+      <guid isPermaLink="true">https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents</guid>
+      <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Demystifying evals for AI agents</title>
+      <link>https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents</link>
+      <description>Demystifying evals for AI agents</description>
+      <guid isPermaLink="true">https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents</guid>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Designing AI-resistant technical evaluations</title>
+      <link>https://www.anthropic.com/engineering/AI-resistant-technical-evaluations</link>
+      <description>Designing AI-resistant technical evaluations</description>
+      <guid isPermaLink="true">https://www.anthropic.com/engineering/AI-resistant-technical-evaluations</guid>
+      <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building a C compiler with a team of parallel Claudes</title>
+      <link>https://www.anthropic.com/engineering/building-c-compiler</link>
+      <description>Building a C compiler with a team of parallel Claudes</description>
+      <guid isPermaLink="true">https://www.anthropic.com/engineering/building-c-compiler</guid>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quantifying infrastructure noise in agentic coding evals</title>
+      <link>https://www.anthropic.com/engineering/infrastructure-noise</link>
+      <description>Quantifying infrastructure noise in agentic coding evals</description>
+      <guid isPermaLink="true">https://www.anthropic.com/engineering/infrastructure-noise</guid>
+      <pubDate>Sat, 14 Feb 2026 09:48:37 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
