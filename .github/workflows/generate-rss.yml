@@ -42,4 +42,4 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add anthropic_news_rss.xml anthropic_engineering_rss.xml
-        git diff --staged --quiet || (git commit -m "Update RSS feed - $(date -u)" && git push "https://${{ secrets.ANTHROPIC_RSS_GH_TOKEN || github.token }}@github.com/${{ github.repository }}.git" HEAD:main)
+        git diff --staged --quiet || (git commit -m "Update RSS feed - $(date -u)" && git push)
