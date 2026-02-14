@@ -2,12 +2,13 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>Anthropic News</title>
-    <link>https://www.anthropic.com/news</link>
+    <link>https://raw.githubusercontent.com/taobojlen/anthropic-rss-feed/main/anthropic_news_rss.xml</link>
     <description>Latest news and announcements from Anthropic</description>
+    <atom:link href="https://raw.githubusercontent.com/taobojlen/anthropic-rss-feed/main/anthropic_news_rss.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Feb 2026 09:41:22 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Feb 2026 09:44:57 +0000</lastBuildDate>
     <item>
       <title>Introducing Claude Sonnet 4.5</title>
       <link>https://www.anthropic.com/news/claude-sonnet-4-5</link>
