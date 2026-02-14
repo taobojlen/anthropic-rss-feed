@@ -1,8 +1,8 @@
-# Anthropic Engineering RSS Feed Generator
+# Anthropic News RSS Feed Generator
 
-This script generates an RSS feed for Anthropic's engineering blog posts using Playwright to scrape the client-side rendered content.
+This script generates an RSS feed for Anthropic's news and announcements at https://www.anthropic.com/news using Playwright to scrape the client-side rendered content.
 
-Feed URL: https://raw.githubusercontent.com/conoro/anthropic-engineering-rss-feed/main/anthropic_engineering_rss.xml
+Subscribe to the feed: `https://raw.githubusercontent.com/taobojlen/anthropic-rss-feed/main/anthropic_news_rss.xml`
 
 ## Features
 
@@ -10,6 +10,7 @@ Feed URL: https://raw.githubusercontent.com/conoro/anthropic-engineering-rss-fee
 - **Proper date parsing**: Extracts and formats publication dates with timezone support
 - **RSS compliance**: Includes GUID elements and atom:link for better interoperability
 - **Reverse chronological order**: Articles sorted newest first
+- **Deduplication**: Featured and list items are deduplicated by URL
 - **Error handling**: Robust error handling for missing elements
 - **Automated updates**: GitHub Action runs hourly to keep the feed current
 
@@ -24,7 +25,7 @@ pip install -r requirements.txt
 
 2. Install Playwright browsers:
 ```bash
-playwright install
+playwright install chromium
 ```
 
 3. Run the main script:
@@ -52,11 +53,7 @@ python anthropic_rss.py
    - Value: Paste the token you copied
    - Click "Add secret"
 
-4. Update the RSS feed URL in `anthropic_rss.py`:
-   - Replace `YOUR_USERNAME/YOUR_REPO` with your GitHub username and repository name
-   - The URL should be: `https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/anthropic_engineering_rss.xml`
-
-5. The GitHub Action will automatically:
+4. The GitHub Action will automatically:
    - Run every hour (and on push to main)
    - Generate a fresh RSS feed
    - Commit and push updates to the repository
@@ -66,7 +63,7 @@ python anthropic_rss.py
 
 Once set up, your RSS feed will be available at:
 ```
-https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/anthropic_engineering_rss.xml
+https://raw.githubusercontent.com/<USERNAME>/<REPO>/main/anthropic_news_rss.xml
 ```
 
 You can subscribe to this URL in any RSS reader.
@@ -75,24 +72,14 @@ You can subscribe to this URL in any RSS reader.
 
 You can manually trigger the RSS generation by:
 - Going to the "Actions" tab in your GitHub repository
-- Selecting "Generate Anthropic Engineering RSS Feed"
+- Selecting "Generate Anthropic News RSS Feed"
 - Clicking "Run workflow"
-
-## Usage
-
-Run the main script:
-```bash
-python anthropic_rss.py
-```
-
-The script will generate an `anthropic_engineering_rss.xml` file containing the RSS feed of all engineering blog posts from Anthropic.
 
 ## Output
 
 The generated RSS feed includes:
 - Post titles
-- Post URLs  
+- Post URLs
 - Publication dates (properly formatted)
 - GUID elements for unique identification
-- Descriptions (same as titles)
 - Proper RSS metadata and atom:link elements

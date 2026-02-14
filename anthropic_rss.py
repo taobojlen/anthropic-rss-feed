@@ -8,25 +8,18 @@ from dateutil import parser as date_parser
 
 class AnthropicRSSGenerator:
     def __init__(self):
-        self.base_url = "https://www.anthropic.com/engineering"
+        self.base_url = "https://www.anthropic.com/news"
 
     def parse_date(self, date_text):
         """Parse date text and return a datetime object with timezone"""
         try:
-            # Clean up the date text
             date_text = date_text.strip()
-            
-            # Try to parse the date
             parsed_date = date_parser.parse(date_text)
-            
-            # If no timezone info, assume UTC
             if parsed_date.tzinfo is None:
                 parsed_date = parsed_date.replace(tzinfo=timezone.utc)
-            
             return parsed_date
         except Exception as e:
             print(f"Error parsing date '{date_text}': {e}")
-            # Return current date as fallback with UTC timezone
             return datetime.now(timezone.utc)
 
     async def fetch_posts(self):
@@ -34,80 +27,107 @@ class AnthropicRSSGenerator:
             browser = await p.chromium.launch(headless=True)
             page = await browser.new_page()
             await page.goto(self.base_url)
-            
-            # Wait for articles to be loaded using wildcard selector
-            await page.wait_for_selector("div[class*='ArticleList_articles__']")
-            
-            # Get all article elements using wildcard selector
-            articles = await page.query_selector_all("div[class*='ArticleList_articles__'] > div > article")
-            
-            # Store articles data for sorting
+
+            # Wait for the publication list to load
+            await page.wait_for_selector("[class*='PublicationList'][class*='listItem']")
+
+            seen_urls = set()
             articles_data = []
-            
-            for article in articles:
+
+            # Scrape featured grid items (main + side)
+            featured_main = await page.query_selector("[class*='FeaturedGrid'][class*='content']")
+            if featured_main:
                 try:
-                    # Get title using wildcard selector
-                    title_element = await article.query_selector("a > div[class*='ArticleList_content__'] > h3")
-                    title = await title_element.text_content()
-                    
-                    # Get URL
-                    link_element = await article.query_selector("a")
-                    url = await link_element.get_attribute("href")
-                    if not url.startswith('http'):
-                        url = f"https://www.anthropic.com{url}"
-                    
-                    # Get date using wildcard selector
-                    date_element = await article.query_selector("a > div[class*='ArticleList_content__'] > div")
-                    date_text = await date_element.text_content()
-                    parsed_date = self.parse_date(date_text)
-                    
-                    articles_data.append({
-                        'title': title,
-                        'url': url,
-                        'date': parsed_date,
-                        'date_text': date_text
-                    })
-                    
-                    print(f"Found: {title} - {date_text}")
-                    
+                    title_el = await featured_main.query_selector("h2")
+                    date_el = await featured_main.query_selector("time")
+                    href = await featured_main.get_attribute("href")
+                    if title_el and date_el and href:
+                        title = await title_el.text_content()
+                        date_text = await date_el.text_content()
+                        url = href if href.startswith("http") else f"https://www.anthropic.com{href}"
+                        seen_urls.add(url)
+                        articles_data.append({
+                            'title': title.strip(),
+                            'url': url,
+                            'date': self.parse_date(date_text),
+                            'date_text': date_text.strip()
+                        })
+                        print(f"Found (featured): {title.strip()} - {date_text.strip()}")
                 except Exception as e:
-                    print(f"Error processing article: {e}")
-            
+                    print(f"Error processing featured main item: {e}")
+
+            featured_sides = await page.query_selector_all("[class*='FeaturedGrid'][class*='sideLink']")
+            for item in featured_sides:
+                try:
+                    title_el = await item.query_selector("[class*='title']")
+                    date_el = await item.query_selector("time")
+                    href = await item.get_attribute("href")
+                    if title_el and date_el and href:
+                        title = await title_el.text_content()
+                        date_text = await date_el.text_content()
+                        url = href if href.startswith("http") else f"https://www.anthropic.com{href}"
+                        if url not in seen_urls:
+                            seen_urls.add(url)
+                            articles_data.append({
+                                'title': title.strip(),
+                                'url': url,
+                                'date': self.parse_date(date_text),
+                                'date_text': date_text.strip()
+                            })
+                            print(f"Found (featured): {title.strip()} - {date_text.strip()}")
+                except Exception as e:
+                    print(f"Error processing featured side item: {e}")
+
+            # Scrape publication list items
+            list_items = await page.query_selector_all("[class*='PublicationList'][class*='listItem']")
+            for item in list_items:
+                try:
+                    title_el = await item.query_selector("[class*='title']")
+                    date_el = await item.query_selector("time")
+                    href = await item.get_attribute("href")
+                    if title_el and date_el and href:
+                        title = await title_el.text_content()
+                        date_text = await date_el.text_content()
+                        url = href if href.startswith("http") else f"https://www.anthropic.com{href}"
+                        if url not in seen_urls:
+                            seen_urls.add(url)
+                            articles_data.append({
+                                'title': title.strip(),
+                                'url': url,
+                                'date': self.parse_date(date_text),
+                                'date_text': date_text.strip()
+                            })
+                            print(f"Found: {title.strip()} - {date_text.strip()}")
+                except Exception as e:
+                    print(f"Error processing list item: {e}")
+
             # Sort articles by date (newest first)
             articles_data.sort(key=lambda x: x['date'], reverse=True)
-            
+
             await browser.close()
             return articles_data
 
     def create_feed(self):
         """Create a fresh feed instance"""
         feed = FeedGenerator()
-        feed.title('Anthropic Engineering Blog')
+        feed.title('Anthropic News')
         feed.link(href=self.base_url, rel='alternate')
-        feed.description('Latest engineering posts from Anthropic')
+        feed.link(href='https://raw.githubusercontent.com/taobojlen/anthropic-rss-feed/main/anthropic_news_rss.xml', rel='self')
+        feed.description('Latest news and announcements from Anthropic')
         feed.language('en')
-        
-        # Add atom:link with rel="self" for better interoperability
-        # This should be updated to match your actual GitHub Pages URL
-        feed.link(href='https://raw.githubusercontent.com/conoro/anthropic-engineering-rss-feed/main/anthropic_engineering_rss.xml', rel='self')
-        
         return feed
 
     def generate_rss(self, articles_data):
-        # Create a fresh feed and add entries in sorted order
         feed = self.create_feed()
-        
+
         for article_data in articles_data:
             entry = feed.add_entry()
             entry.title(article_data['title'])
             entry.link(href=article_data['url'])
             entry.pubDate(article_data['date'])
             entry.description(article_data['title'])
-            
-            # Add GUID for better interoperability (using the URL as GUID)
             entry.guid(article_data['url'], permalink=True)
-            
-        # Generate RSS feed content
+
         rss_content = feed.rss_str(pretty=True)
         return rss_content
 
@@ -115,11 +135,10 @@ async def main():
     generator = AnthropicRSSGenerator()
     articles_data = await generator.fetch_posts()
     rss_content = generator.generate_rss(articles_data)
-    
-    # Write to file
-    with open('anthropic_engineering_rss.xml', 'wb') as f:
+
+    with open('anthropic_news_rss.xml', 'wb') as f:
         f.write(rss_content)
-    
+
     print("RSS feed generated successfully!")
 
 if __name__ == "__main__":
