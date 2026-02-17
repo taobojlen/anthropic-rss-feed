@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Feb 2026 06:27:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Feb 2026 12:20:24 +0000</lastBuildDate>
     <item>
       <title>Introducing Claude Sonnet 4.5</title>
       <link>https://www.anthropic.com/news/claude-sonnet-4-5</link>
@@ -22,13 +22,6 @@
       <description>Claude on Mars</description>
       <guid isPermaLink="true">https://www.anthropic.com/mars</guid>
       <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Apple’s Xcode now supports the Claude Agent SDK</title>
-      <link>https://www.anthropic.com/news/apple-xcode-claude-agent-sdk</link>
-      <description>Apple’s Xcode now supports the Claude Agent SDK</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/apple-xcode-claude-agent-sdk</guid>
-      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Claude is a space to think</title>
@@ -91,6 +84,13 @@
       <link>https://www.anthropic.com/news/anthropic-infosys</link>
       <description>Anthropic and Infosys collaborate to build AI agents for telecommunications and other regulated industries</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-infosys</guid>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic and the Government of Rwanda sign MOU for AI in health and education</title>
+      <link>https://www.anthropic.com/news/anthropic-rwanda-mou</link>
+      <description>Anthropic and the Government of Rwanda sign MOU for AI in health and education</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-rwanda-mou</guid>
       <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
