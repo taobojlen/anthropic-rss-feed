@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Feb 2026 00:38:18 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Feb 2026 06:27:33 +0000</lastBuildDate>
     <item>
       <title>Introducing Claude Sonnet 4.5</title>
       <link>https://www.anthropic.com/news/claude-sonnet-4-5</link>
@@ -22,13 +22,6 @@
       <description>Claude on Mars</description>
       <guid isPermaLink="true">https://www.anthropic.com/mars</guid>
       <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic partners with Allen Institute and Howard Hughes Medical Institute to accelerate scientific discovery</title>
-      <link>https://www.anthropic.com/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute</link>
-      <description>Anthropic partners with Allen Institute and Howard Hughes Medical Institute to accelerate scientific discovery</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute</guid>
-      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Apple’s Xcode now supports the Claude Agent SDK</title>
@@ -92,6 +85,13 @@
       <description>Anthropic opens Bengaluru office and announces new partnerships across India</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/bengaluru-office-partnerships-across-india</guid>
       <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic and Infosys collaborate to build AI agents for telecommunications and other regulated industries</title>
+      <link>https://www.anthropic.com/news/anthropic-infosys</link>
+      <description>Anthropic and Infosys collaborate to build AI agents for telecommunications and other regulated industries</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-infosys</guid>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
