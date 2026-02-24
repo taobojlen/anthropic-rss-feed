@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Feb 2026 12:21:15 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Feb 2026 06:28:49 +0000</lastBuildDate>
     <item>
       <title>Claude on Mars</title>
       <link>https://www.anthropic.com/mars</link>
@@ -29,13 +29,6 @@
       <description>Introducing Claude Opus 4.6</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/claude-opus-4-6</guid>
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Covering electricity price increases from our data centers</title>
-      <link>https://www.anthropic.com/news/covering-electricity-price-increases</link>
-      <description>Covering electricity price increases from our data centers</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/covering-electricity-price-increases</guid>
-      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic is donating $20 million to Public First Action</title>
@@ -99,6 +92,13 @@
       <description>Making frontier cybersecurity capabilities available to defenders</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/claude-code-security</guid>
       <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Detecting and preventing distillation attacks</title>
+      <link>https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks</link>
+      <description>Detecting and preventing distillation attacks</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks</guid>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
