@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Feb 2026 18:26:32 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Feb 2026 12:21:09 +0000</lastBuildDate>
     <item>
       <title>Claude on Mars</title>
       <link>https://www.anthropic.com/mars</link>
@@ -29,13 +29,6 @@
       <description>Introducing Claude Opus 4.6</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/claude-opus-4-6</guid>
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic is donating $20 million to Public First Action</title>
-      <link>https://www.anthropic.com/news/donate-public-first-action</link>
-      <description>Anthropic is donating $20 million to Public First Action</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/donate-public-first-action</guid>
-      <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic raises $30 billion in Series G funding at $380 billion post-money valuation</title>
@@ -99,6 +92,13 @@
       <description>Detecting and preventing distillation attacks</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks</guid>
       <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic’s Responsible Scaling Policy: Version 3.0</title>
+      <link>https://www.anthropic.com/news/responsible-scaling-policy-v3</link>
+      <description>Anthropic’s Responsible Scaling Policy: Version 3.0</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/responsible-scaling-policy-v3</guid>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
