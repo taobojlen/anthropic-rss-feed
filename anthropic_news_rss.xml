@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Feb 2026 18:21:43 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Feb 2026 06:14:02 +0000</lastBuildDate>
     <item>
       <title>Claude on Mars</title>
       <link>https://www.anthropic.com/mars</link>
@@ -22,34 +22,6 @@
       <description>Claude is a space to think</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/claude-is-a-space-to-think</guid>
       <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Claude Opus 4.6</title>
-      <link>https://www.anthropic.com/news/claude-opus-4-6</link>
-      <description>Introducing Claude Opus 4.6</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/claude-opus-4-6</guid>
-      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic raises $30 billion in Series G funding at $380 billion post-money valuation</title>
-      <link>https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation</link>
-      <description>Anthropic raises $30 billion in Series G funding at $380 billion post-money valuation</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation</guid>
-      <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chris Liddell appointed to Anthropic’s board of directors</title>
-      <link>https://www.anthropic.com/news/chris-liddell-appointed-anthropic-board</link>
-      <description>Chris Liddell appointed to Anthropic’s board of directors</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/chris-liddell-appointed-anthropic-board</guid>
-      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic partners with CodePath to bring Claude to the US’s largest collegiate computer science program</title>
-      <link>https://www.anthropic.com/news/anthropic-codepath-partnership</link>
-      <description>Anthropic partners with CodePath to bring Claude to the US’s largest collegiate computer science program</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-codepath-partnership</guid>
-      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic opens Bengaluru office and announces new partnerships across India</title>
@@ -106,6 +78,20 @@
       <description>Anthropic acquires Vercept to advance Claude's computer use capabilities</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/acquires-vercept</guid>
       <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Statement from Dario Amodei on our discussions with the Department of War</title>
+      <link>https://www.anthropic.com/news/statement-department-of-war</link>
+      <description>Statement from Dario Amodei on our discussions with the Department of War</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/statement-department-of-war</guid>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Statement on the comments from Secretary of War Pete Hegseth</title>
+      <link>https://www.anthropic.com/news/statement-comments-secretary-war</link>
+      <description>Statement on the comments from Secretary of War Pete Hegseth</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/statement-comments-secretary-war</guid>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
