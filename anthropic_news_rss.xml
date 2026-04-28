@@ -8,20 +8,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Apr 2026 07:03:03 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 00:52:50 +0000</lastBuildDate>
     <item>
       <title>Claude is a space to think</title>
       <link>https://www.anthropic.com/news/claude-is-a-space-to-think</link>
       <description>Claude is a space to think</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/claude-is-a-space-to-think</guid>
       <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing The Anthropic Institute</title>
-      <link>https://www.anthropic.com/news/the-anthropic-institute</link>
-      <description>Introducing The Anthropic Institute</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/the-anthropic-institute</guid>
-      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic invests $100 million into the Claude Partner Network</title>
@@ -99,6 +92,13 @@
       <description>An update on our election safeguards</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/election-safeguards-update</guid>
       <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic names Theo Hourmouzis General Manager of Australia &amp; New Zealand and officially opens Sydney office</title>
+      <link>https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand</link>
+      <description>Anthropic names Theo Hourmouzis General Manager of Australia &amp; New Zealand and officially opens Sydney office</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand</guid>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
