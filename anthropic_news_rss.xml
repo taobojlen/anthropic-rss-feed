@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 04 May 2026 12:43:35 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 18:40:35 +0000</lastBuildDate>
     <item>
       <title>Claude is a space to think</title>
       <link>https://www.anthropic.com/news/claude-is-a-space-to-think</link>
@@ -22,13 +22,6 @@
       <description>What 81,000 people want from AI</description>
       <guid isPermaLink="true">https://www.anthropic.com/81k-interviews</guid>
       <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Australian government and Anthropic sign MOU for AI safety and research</title>
-      <link>https://www.anthropic.com/news/australia-MOU</link>
-      <description>Australian government and Anthropic sign MOU for AI safety and research</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/australia-MOU</guid>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute</title>
@@ -99,6 +92,13 @@
       <description>Claude for Creative Work</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/claude-for-creative-work</guid>
       <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building a new enterprise AI services company with Blackstone, Hellman &amp; Friedman, and Goldman Sachs</title>
+      <link>https://www.anthropic.com/news/enterprise-ai-services-company</link>
+      <description>Building a new enterprise AI services company with Blackstone, Hellman &amp; Friedman, and Goldman Sachs</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/enterprise-ai-services-company</guid>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
