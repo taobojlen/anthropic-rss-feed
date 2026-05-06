@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 05 May 2026 06:54:56 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 00:51:47 +0000</lastBuildDate>
     <item>
       <title>Claude is a space to think</title>
       <link>https://www.anthropic.com/news/claude-is-a-space-to-think</link>
@@ -22,13 +22,6 @@
       <description>What 81,000 people want from AI</description>
       <guid isPermaLink="true">https://www.anthropic.com/81k-interviews</guid>
       <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute</title>
-      <link>https://www.anthropic.com/news/google-broadcom-partnership-compute</link>
-      <description>Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/google-broadcom-partnership-compute</guid>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Project Glasswing</title>
@@ -99,6 +92,13 @@
       <description>Building a new enterprise AI services company with Blackstone, Hellman &amp; Friedman, and Goldman Sachs</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/enterprise-ai-services-company</guid>
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agents for financial services</title>
+      <link>https://www.anthropic.com/news/finance-agents</link>
+      <description>Agents for financial services</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/finance-agents</guid>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
