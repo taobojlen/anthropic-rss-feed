@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 13 May 2026 00:56:50 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 12:46:29 +0000</lastBuildDate>
     <item>
       <title>Claude is a space to think</title>
       <link>https://www.anthropic.com/news/claude-is-a-space-to-think</link>
@@ -99,6 +99,13 @@
       <description>Higher usage limits for Claude and a compute deal with SpaceX</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/higher-limits-spacex</guid>
       <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Claude for Small Business</title>
+      <link>https://www.anthropic.com/news/claude-for-small-business</link>
+      <description>Introducing Claude for Small Business</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/claude-for-small-business</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
