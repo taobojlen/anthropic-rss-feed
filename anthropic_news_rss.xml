@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 19 May 2026 07:23:23 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2026 13:17:18 +0000</lastBuildDate>
     <item>
       <title>Claude is a space to think</title>
       <link>https://www.anthropic.com/news/claude-is-a-space-to-think</link>
@@ -43,13 +43,6 @@
       <description>Introducing Claude Design by Anthropic Labs</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/claude-design-anthropic-labs</guid>
       <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>An update on our election safeguards</title>
-      <link>https://www.anthropic.com/news/election-safeguards-update</link>
-      <description>An update on our election safeguards</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/election-safeguards-update</guid>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic names Theo Hourmouzis General Manager of Australia &amp; New Zealand and officially opens Sydney office</title>
@@ -113,6 +106,13 @@
       <description>Anthropic acquires Stainless</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-acquires-stainless</guid>
       <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance</title>
+      <link>https://www.anthropic.com/news/anthropic-kpmg</link>
+      <description>KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-kpmg</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
