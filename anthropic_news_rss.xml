@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 19 May 2026 18:47:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 01:01:32 +0000</lastBuildDate>
     <item>
       <title>Claude is a space to think</title>
       <link>https://www.anthropic.com/news/claude-is-a-space-to-think</link>
@@ -43,13 +43,6 @@
       <description>Introducing Claude Design by Anthropic Labs</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/claude-design-anthropic-labs</guid>
       <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic names Theo Hourmouzis General Manager of Australia &amp; New Zealand and officially opens Sydney office</title>
-      <link>https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand</link>
-      <description>Anthropic names Theo Hourmouzis General Manager of Australia &amp; New Zealand and officially opens Sydney office</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand</guid>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Claude for Creative Work</title>
@@ -112,6 +105,13 @@
       <link>https://www.anthropic.com/news/anthropic-kpmg</link>
       <description>KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-kpmg</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Widening the conversation on frontier AI</title>
+      <link>https://www.anthropic.com/news/widening-conversation-ai</link>
+      <description>Widening the conversation on frontier AI</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/widening-conversation-ai</guid>
       <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
