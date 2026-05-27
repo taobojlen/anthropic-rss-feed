@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 27 May 2026 07:36:27 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 13:22:14 +0000</lastBuildDate>
     <item>
       <title>Introducing Contextual Retrieval</title>
       <link>https://www.anthropic.com/engineering/contextual-retrieval</link>
@@ -157,9 +157,9 @@
       <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Claude Code auto mode: a safer way to skip permissions</title>
+      <title>How we built Claude Code auto mode: a safer way to skip permissions</title>
       <link>https://www.anthropic.com/engineering/claude-code-auto-mode</link>
-      <description>Claude Code auto mode: a safer way to skip permissions</description>
+      <description>How we built Claude Code auto mode: a safer way to skip permissions</description>
       <guid isPermaLink="true">https://www.anthropic.com/engineering/claude-code-auto-mode</guid>
       <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
     </item>
@@ -182,7 +182,7 @@
       <link>https://www.anthropic.com/engineering/how-we-contain-claude</link>
       <description>How we contain Claude across products</description>
       <guid isPermaLink="true">https://www.anthropic.com/engineering/how-we-contain-claude</guid>
-      <pubDate>Wed, 27 May 2026 07:36:26 +0000</pubDate>
+      <pubDate>Wed, 27 May 2026 13:22:13 +0000</pubDate>
     </item>
   </channel>
 </rss>
