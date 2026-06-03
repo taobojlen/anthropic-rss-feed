@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Jun 2026 13:27:43 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 19:28:23 +0000</lastBuildDate>
     <item>
       <title>Claude is a space to think</title>
       <link>https://www.anthropic.com/news/claude-is-a-space-to-think</link>
@@ -36,20 +36,6 @@
       <description>Introducing Claude Design by Anthropic Labs</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/claude-design-anthropic-labs</guid>
       <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance</title>
-      <link>https://www.anthropic.com/news/anthropic-kpmg</link>
-      <description>KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-kpmg</guid>
-      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Widening the conversation on frontier AI</title>
-      <link>https://www.anthropic.com/news/widening-conversation-ai</link>
-      <description>Widening the conversation on frontier AI</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/widening-conversation-ai</guid>
-      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Project Glasswing: An initial update</title>
@@ -106,6 +92,20 @@
       <description>Expanding Project Glasswing</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/expanding-project-glasswing</guid>
       <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What we learned mapping a year’s worth of AI-enabled cyber threats</title>
+      <link>https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack</link>
+      <description>What we learned mapping a year’s worth of AI-enabled cyber threats</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack</guid>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing the Services Track and Partner Hub of the Claude Partner Network</title>
+      <link>https://www.anthropic.com/news/services-track-partner-hub</link>
+      <description>Introducing the Services Track and Partner Hub of the Claude Partner Network</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/services-track-partner-hub</guid>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
