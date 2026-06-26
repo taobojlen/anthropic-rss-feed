@@ -8,14 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 21 Jun 2026 12:48:39 +0000</lastBuildDate>
-    <item>
-      <title>Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas"</title>
-      <link>https://www.anthropic.com/news/chris-olah-pope-leo-encyclical</link>
-      <description>Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas"</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/chris-olah-pope-leo-encyclical</guid>
-      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 26 Jun 2026 18:43:51 +0000</lastBuildDate>
     <item>
       <title>Introducing Claude Opus 4.8</title>
       <link>https://www.anthropic.com/news/claude-opus-4-8</link>
@@ -99,6 +92,13 @@
       <description>Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem</guid>
       <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Claude Tag</title>
+      <link>https://www.anthropic.com/news/introducing-claude-tag</link>
+      <description>Introducing Claude Tag</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/introducing-claude-tag</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
