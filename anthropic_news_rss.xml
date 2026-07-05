@@ -8,42 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Jun 2026 01:04:53 +0000</lastBuildDate>
-    <item>
-      <title>Introducing Claude Opus 4.8</title>
-      <link>https://www.anthropic.com/news/claude-opus-4-8</link>
-      <description>Introducing Claude Opus 4.8</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/claude-opus-4-8</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Expanding Project Glasswing</title>
-      <link>https://www.anthropic.com/news/expanding-project-glasswing</link>
-      <description>Expanding Project Glasswing</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/expanding-project-glasswing</guid>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>What we learned mapping a year’s worth of AI-enabled cyber threats</title>
-      <link>https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack</link>
-      <description>What we learned mapping a year’s worth of AI-enabled cyber threats</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack</guid>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing the Services Track and Partner Hub of the Claude Partner Network</title>
-      <link>https://www.anthropic.com/news/services-track-partner-hub</link>
-      <description>Introducing the Services Track and Partner Hub of the Claude Partner Network</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/services-track-partner-hub</guid>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude Fable 5 and Claude Mythos 5</title>
-      <link>https://www.anthropic.com/news/claude-fable-5-mythos-5</link>
-      <description>Claude Fable 5 and Claude Mythos 5</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/claude-fable-5-mythos-5</guid>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sun, 05 Jul 2026 08:56:47 +0000</lastBuildDate>
     <item>
       <title>Policy on the AI Exponential</title>
       <link>https://www.anthropic.com/policy-on-the-ai-exponential</link>
@@ -56,13 +21,6 @@
       <link>https://www.anthropic.com/news/dxc-anthropic-alliance</link>
       <description>DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/dxc-anthropic-alliance</guid>
-      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Claude Corps</title>
-      <link>https://www.anthropic.com/news/claude-corps</link>
-      <description>Introducing Claude Corps</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/claude-corps</guid>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -99,6 +57,34 @@
       <description>Introducing Claude Tag</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/introducing-claude-tag</guid>
       <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Science, an AI workbench for scientists, is now available</title>
+      <link>https://www.anthropic.com/news/claude-science-ai-workbench</link>
+      <description>Claude Science, an AI workbench for scientists, is now available</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/claude-science-ai-workbench</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Claude Sonnet 5</title>
+      <link>https://www.anthropic.com/news/claude-sonnet-5</link>
+      <description>Introducing Claude Sonnet 5</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/claude-sonnet-5</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Redeploying Fable 5</title>
+      <link>https://www.anthropic.com/news/redeploying-fable-5</link>
+      <description>Redeploying Fable 5</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/redeploying-fable-5</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>More details on Fable 5’s cyber safeguards and our jailbreak framework</title>
+      <link>https://www.anthropic.com/news/fable-safeguards-jailbreak-framework</link>
+      <description>More details on Fable 5’s cyber safeguards and our jailbreak framework</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/fable-safeguards-jailbreak-framework</guid>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
