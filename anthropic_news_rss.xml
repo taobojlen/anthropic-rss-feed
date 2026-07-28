@@ -8,63 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 05 Jul 2026 08:56:47 +0000</lastBuildDate>
-    <item>
-      <title>Policy on the AI Exponential</title>
-      <link>https://www.anthropic.com/policy-on-the-ai-exponential</link>
-      <description>Policy on the AI Exponential</description>
-      <guid isPermaLink="true">https://www.anthropic.com/policy-on-the-ai-exponential</guid>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on</title>
-      <link>https://www.anthropic.com/news/dxc-anthropic-alliance</link>
-      <description>DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/dxc-anthropic-alliance</guid>
-      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>TCS and Anthropic partner to bring Claude to regulated industries</title>
-      <link>https://www.anthropic.com/news/tcs-anthropic-partnership</link>
-      <description>TCS and Anthropic partner to bring Claude to regulated industries</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/tcs-anthropic-partnership</guid>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Results from the first Anthropic Public Record</title>
-      <link>https://www.anthropic.com/news/anthropic-public-record</link>
-      <description>Results from the first Anthropic Public Record</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-public-record</guid>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Statement on the US government directive to suspend access to Fable 5 and Mythos 5</title>
-      <link>https://www.anthropic.com/news/fable-mythos-access</link>
-      <description>Statement on the US government directive to suspend access to Fable 5 and Mythos 5</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/fable-mythos-access</guid>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem</title>
-      <link>https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem</link>
-      <description>Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem</guid>
-      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Claude Tag</title>
-      <link>https://www.anthropic.com/news/introducing-claude-tag</link>
-      <description>Introducing Claude Tag</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/introducing-claude-tag</guid>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude Science, an AI workbench for scientists, is now available</title>
-      <link>https://www.anthropic.com/news/claude-science-ai-workbench</link>
-      <description>Claude Science, an AI workbench for scientists, is now available</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/claude-science-ai-workbench</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 28 Jul 2026 14:12:38 +0000</lastBuildDate>
     <item>
       <title>Introducing Claude Sonnet 5</title>
       <link>https://www.anthropic.com/news/claude-sonnet-5</link>
@@ -80,11 +24,88 @@
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>More details on Fable 5’s cyber safeguards and our jailbreak framework</title>
-      <link>https://www.anthropic.com/news/fable-safeguards-jailbreak-framework</link>
-      <description>More details on Fable 5’s cyber safeguards and our jailbreak framework</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/fable-safeguards-jailbreak-framework</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+      <title>The Making of Claude Code</title>
+      <link>https://www.anthropic.com/features/making-of-claude-code</link>
+      <description>The Making of Claude Code</description>
+      <guid isPermaLink="true">https://www.anthropic.com/features/making-of-claude-code</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>UST is bringing Claude to physical AI</title>
+      <link>https://www.anthropic.com/news/ust-claude</link>
+      <description>UST is bringing Claude to physical AI</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/ust-claude</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Inviting hard questions</title>
+      <link>https://www.anthropic.com/news/hard-questions</link>
+      <description>Inviting hard questions</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/hard-questions</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic commits $10 million to Canadian AI research</title>
+      <link>https://www.anthropic.com/news/canadian-ai-research</link>
+      <description>Anthropic commits $10 million to Canadian AI research</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/canadian-ai-research</guid>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Claude for Teachers</title>
+      <link>https://www.anthropic.com/news/claude-for-teachers</link>
+      <description>Introducing Claude for Teachers</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/claude-for-teachers</guid>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Apply for Anthropic’s AI for Science rare disease research grants</title>
+      <link>https://www.anthropic.com/news/rare-disease-research-grants</link>
+      <description>Apply for Anthropic’s AI for Science rare disease research grants</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/rare-disease-research-grants</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic is donating another $20 million to Public First Action</title>
+      <link>https://www.anthropic.com/news/donation-public-first-action</link>
+      <description>Anthropic is donating another $20 million to Public First Action</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/donation-public-first-action</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ask Claude about the Anthropic Economic Index</title>
+      <link>https://www.anthropic.com/news/anthropic-economic-index-connector</link>
+      <description>Ask Claude about the Anthropic Economic Index</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-economic-index-connector</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A research agenda for the Economic Futures Research Fund</title>
+      <link>https://www.anthropic.com/news/economic-futures-research-fund-agenda</link>
+      <description>A research agenda for the Economic Futures Research Fund</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/economic-futures-research-fund-agenda</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Claude Opus 5</title>
+      <link>https://www.anthropic.com/news/claude-opus-5</link>
+      <description>Introducing Claude Opus 5</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/claude-opus-5</guid>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients</title>
+      <link>https://www.anthropic.com/news/cognizant-anthropic</link>
+      <description>Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/cognizant-anthropic</guid>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Our position on open-weights models</title>
+      <link>https://www.anthropic.com/news/position-open-weights-models</link>
+      <description>Our position on open-weights models</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/position-open-weights-models</guid>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
