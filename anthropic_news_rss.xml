@@ -8,21 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Sep 2026 16:31:31 +0000</lastBuildDate>
-    <item>
-      <title>Introducing Claude Opus 5</title>
-      <link>https://www.anthropic.com/news/claude-opus-5</link>
-      <description>Introducing Claude Opus 5</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/claude-opus-5</guid>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Our position on open-weights models</title>
-      <link>https://www.anthropic.com/news/position-open-weights-models</link>
-      <description>Our position on open-weights models</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/position-open-weights-models</guid>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 17 Sep 2026 21:04:37 +0000</lastBuildDate>
     <item>
       <title>Investigating three real-world incidents in our cybersecurity evaluations</title>
       <link>https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals</link>
@@ -99,6 +85,20 @@
       <description>Detecting and countering misuse of AI: September 2026</description>
       <guid isPermaLink="true">https://www.anthropic.com/threat-intelligence-report-september-2026</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing the Life Sciences Verification Program</title>
+      <link>https://www.anthropic.com/news/life-sciences-verification-program</link>
+      <description>Introducing the Life Sciences Verification Program</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/life-sciences-verification-program</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Measurements for understanding the pace of AI development inside frontier labs</title>
+      <link>https://www.anthropic.com/institute/measuring-pace-of-ai-development</link>
+      <description>Measurements for understanding the pace of AI development inside frontier labs</description>
+      <guid isPermaLink="true">https://www.anthropic.com/institute/measuring-pace-of-ai-development</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
