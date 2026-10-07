@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2026 12:53:38 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 22:52:49 +0000</lastBuildDate>
     <item>
       <title>Expanding our support for scientists</title>
       <link>https://www.anthropic.com/news/expanding-support-for-scientists</link>
@@ -35,13 +35,6 @@
       <link>https://www.anthropic.com/news/enterprise-frontier-safeguards</link>
       <description>Developing Enterprise Frontier Safeguards with our customers</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/enterprise-frontier-safeguards</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Claude Fable 5.1 and Claude Mythos 5.1</title>
-      <link>https://www.anthropic.com/claude-fable-and-mythos-5-1</link>
-      <description>Introducing Claude Fable 5.1 and Claude Mythos 5.1</description>
-      <guid isPermaLink="true">https://www.anthropic.com/claude-fable-and-mythos-5-1</guid>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -106,6 +99,13 @@
       <description>Expanding the Cyber Verification Program</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/cyber-verification-program</guid>
       <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Claude Haiku 5.5</title>
+      <link>https://www.anthropic.com/claude-haiku-5-5</link>
+      <description>Introducing Claude Haiku 5.5</description>
+      <guid isPermaLink="true">https://www.anthropic.com/claude-haiku-5-5</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
