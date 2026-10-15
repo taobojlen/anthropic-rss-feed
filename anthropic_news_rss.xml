@@ -8,14 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 16:33:08 +0000</lastBuildDate>
-    <item>
-      <title>Partnering with Accenture on embedded evaluation</title>
-      <link>https://www.anthropic.com/news/accenture-embedded-evaluation</link>
-      <description>Partnering with Accenture on embedded evaluation</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/accenture-embedded-evaluation</guid>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 15 Oct 2026 21:04:24 +0000</lastBuildDate>
     <item>
       <title>The Situation Report</title>
       <link>https://www.anthropic.com/features/ebola-response</link>
@@ -106,6 +99,13 @@
       <description>Preparing for the 2026 US midterms</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/2026-us-midterms</guid>
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>An update on independent evaluators</title>
+      <link>https://www.anthropic.com/news/an-update-on-independent-evaluators</link>
+      <description>An update on independent evaluators</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/an-update-on-independent-evaluators</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
