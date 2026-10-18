@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 15:33:55 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 20:17:25 +0000</lastBuildDate>
     <item>
       <title>The Situation Report</title>
       <link>https://www.anthropic.com/features/ebola-response</link>
@@ -22,13 +22,6 @@
       <description>Introducing Claude Opus 5.5</description>
       <guid isPermaLink="true">https://www.anthropic.com/claude-opus-5-5</guid>
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude discovers a novel enzyme system with CRISPR-like repeats</title>
-      <link>https://www.anthropic.com/news/claude-discovers-novel-enzyme-system</link>
-      <description>Claude discovers a novel enzyme system with CRISPR-like repeats</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/claude-discovers-novel-enzyme-system</guid>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Introducing Claude Sonnet 5.5</title>
@@ -106,6 +99,13 @@
       <description>An update on independent evaluators</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/an-update-on-independent-evaluators</guid>
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Investing in the public benefit</title>
+      <link>https://www.anthropic.com/news/public-benefit-fund</link>
+      <description>Investing in the public benefit</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/public-benefit-fund</guid>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
